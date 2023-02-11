@@ -7,8 +7,8 @@
             
             
 
-            int i;
-            for (i = 1; i < 6; i++)
+            
+            for (int i = 1; i < 6; i++)
             {
                 Console.WriteLine("Iteration {0}", i);
                 Console.Write("Enter your color: ");
