@@ -12,7 +12,7 @@
             {
                 Console.WriteLine("Iteration {0}", i);
                 Console.Write("Enter your color: ");
-                string color = new(Console.ReadLine());
+                string color = new (Console.ReadLine());
                 switch (color)
                 {
                     case "red":
