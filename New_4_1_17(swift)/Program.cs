@@ -59,6 +59,8 @@
                     break;
 
                 default:
+                    Console.BackgroundColor = ConsoleColor.Yellow; // свойство цвета фона консоли (не всего, а того, который у наших данных).
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Sorry color {0} not found in database", color);
                     break;
             }
