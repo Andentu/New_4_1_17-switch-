@@ -4,14 +4,19 @@
     {
         static void Main(string[] args)
         {
-            
-            
 
-            
+
+
+
             // for (int i = 1; i < 6; i++)
-            while (true)
+            int i = 1;
+            while (i < 6)
             {
-                // Console.WriteLine("Iteration {0}", i);
+                Console.BackgroundColor = ConsoleColor.White; 
+                Console.ForegroundColor = ConsoleColor.Black;
+                Console.WriteLine("\nIteration {0}", i);
+                Console.BackgroundColor = ConsoleColor.Black;
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.Write("Enter your color: ");
                 string color = new (Console.ReadLine());
                 switch (color)
@@ -70,7 +75,10 @@
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Sorry color {0} not found in database", color);
                         break;
+                        
+
                 }
+                i++;
             }
             Console.ReadKey();
         }
