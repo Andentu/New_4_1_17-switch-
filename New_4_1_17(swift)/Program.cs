@@ -41,7 +41,7 @@
                         Console.WriteLine("Your color is " + color);
                         break;
 
-                    case "darkblue":
+                    case "dark blue":
                         Console.BackgroundColor = ConsoleColor.DarkBlue; // свойство цвета фона консоли (не всего, а того, который у наших данных).
                         Console.ForegroundColor = ConsoleColor.White; // свойство цвета шрифта.
                         Console.WriteLine("Your color is " + color);
@@ -55,7 +55,7 @@
 
                     case "cyan":
                         Console.BackgroundColor = ConsoleColor.Cyan; // свойство цвета фона консоли (не всего, а того, который у наших данных).
-                        Console.ForegroundColor = ConsoleColor.White; // свойство цвета шрифта.
+                        Console.ForegroundColor = ConsoleColor.Black; // свойство цвета шрифта.
                         Console.WriteLine("Your color is " + color);
                         break;
 
