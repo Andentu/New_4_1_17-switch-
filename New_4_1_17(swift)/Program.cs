@@ -10,7 +10,7 @@
 
             // for (int i = 1; i < 6; i++)
             int i = 1;
-            while (i < 6)
+            while (true)
             {
                 Console.BackgroundColor = ConsoleColor.White; 
                 Console.ForegroundColor = ConsoleColor.Black;
@@ -22,6 +22,11 @@
 
                 Console.Write("Enter your color: ");
                 string color = new (Console.ReadLine());
+                if (color == "stop")
+                {
+                    Console.WriteLine("The circle has been stopped");
+                    break;
+                }
                 switch (color)
                 {
                     case "red":
